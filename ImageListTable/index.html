@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <img width="360" src="Spider2.png" alt="Spider Poster"> <!--alt attribute is optional (Used when any error shows)-->
+    <p></p>
+    <p><img src="Spider1.png" alt="Spider Poster"></p>
+    <p><img src="Spider1.png"> </p> <!--Here we can see the difference of alt attributes -->
+
+    <table>
+        <caption>Colleagues Details </caption>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Place</th>
+        </tr>
+        <tr>
+            <td>Suchit</td>
+            <td>21</td>
+            <td>Chirana</td>
+        </tr>
+        <tr>
+            <td>Nikhil Sharma</td>
+            <td>22</td>
+            <td>Jaipur</td>
+        </tr>
+        <tr>
+            <td>Charchit Jain</td>
+            <td>23</td>
+            <td>Tonk</td>
+        </tr>
+    </table>
+<br> <!-- spaces btw to lines -->
+    <table>
+        <caption>Colleagues Details </caption>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Place</th>
+        </tr>
+        <tr>
+            <td colspan="2">Suchit</td>
+            <td>Chirana</td>
+        </tr>
+        <tr>
+            <td>Nikhil Sharma</td>
+            <td rowspan="2">22</td>
+            <td>Jaipur</td>
+        </tr>
+        <tr>
+            <td>Charchit Jain</td>
+            <td>Tonk</td>
+        </tr>
+    </table>
+
+</body>
+</html>
+
+<!--Width and height attribute used in image tag -->
+<!--We can group the table foot , table body, table footer For more info regrading this go to codewithharry websites but these are not commonly used-->
