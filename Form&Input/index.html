@@ -1,17 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forms - Let's Learn it</title>
 </head>
+
 <body>
+    <h1>General Form</h1>
     <form action="post">
-        
+        <h2>Text type</h2>
+
+        <label for="username">Enter your username</label>
+        <input type="text" id="username" name="userna" placeholder="Enter your usere">
+        <h2>Radio type</h2>
+        <div>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <br>
+            <input type="radio" id="female34242" name="gender" value="female">
+            <label for="female">FeMale</label>
+        </div>
+        <h2>Checkbox type </h2>
+        <div>
+            <input type="checkbox" id="Subscribe" name="Subscribe" value="yes">
+            <label for="Subscribe">Subscribe to this </label> 
+        </div>
+        <h2>Textarea </h2>
+        <label for="Comment">Enter your comment</label>
+        <textarea name="Comment" id="Comment" rows="4" cols="20">Enter your comment....</textarea>
+        <h2>Select tags</h2>
+        <div>
+            <label for="Fruits">Enter Fruits</label>
+            <select name="Fruits" id="Fruits">
+                <option value="apple">Apple</option>
+                <option value="apple">banana</option>
+                <option value="Grapes">Grapes</option>
+            </select>
+        </div>
     </form>
+
 </body>
 </html>
 
 <!-- Two action
     1. Get request - Simple
     2. Post request - Large Data -->
+<!--id is like a unique attribute and label "for" must be same as "id" -->
